@@ -9,4 +9,5 @@ En el desarrollo de esta herramienta se utilizaron diferentes metodologías para
 3. Aprendizaje supervisado - K Nearest Neighbors
 4. Desarrollo Frontend de la herramienta
 
-Los pasos completos efectuados en la investigación se encuentran en el [Jupyter Notebook](spanish_version/METODOLOGÍA_TESIS_SECCIONADO.ipynb)
+Los pasos completos efectuados en la investigación se encuentran en el [Jupyter Notebook](https://github.com/pizzio98/drilling_problems_app/blob/main/spanish_version/METODOLOG%C3%8DA_TESIS_SECCIONADO.ipynb)
+## ¿Cómo utilizar la herramienta computacional?
