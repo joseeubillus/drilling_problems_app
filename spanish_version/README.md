@@ -9,4 +9,4 @@ En el desarrollo de esta herramienta se utilizaron diferentes metodologías para
 3. Aprendizaje supervisado - K Nearest Neighbors
 4. Desarrollo Frontend de la herramienta
 
-Los pasos completos efectuados en la investigación se encuentran en el [Jupyter Notebook] (
+Los pasos completos efectuados en la investigación se encuentran en el [Jupyter Notebook](spanish_version/METODOLOGÍA_TESIS_SECCIONADO.ipynb)
