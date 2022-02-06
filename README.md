@@ -1,12 +1,4 @@
-# drilling_problems_app
-# Software Development for Drilling Problems Evaluation (Prediction)
-The Sacha field is located in the Ecuadorian province of Orellana, it is part of Block 60 and is considered one of the most important in Ecuador 
-because it registers a high daily production of hydrocarbons. Due to this, it is necessary to identify the type of drilling problems that occur 
-in the field, their origin, and consequences, in order to correct such setbacks to reduce non-productive times and optimize the drilling of hydrocarbon wells in this field.
-
-For this investigation, the final reports of drilling and fluids prepared between 2014 and 2019 of different wells in the Sacha field were used. 
-From the data extracted from the reports, statistical analysis was applied, to elaborate a clean data matrix that allows to implement principal component analysis for the 
-reduction of dimensions and understanding the relationship of the variables in a two-dimensional plane.
-
-Finally, a classification model based on artificial intelligence was built, where 82% accuracy was achieved when predicting drilling problems in well drilling operations, 
-which allows us to anticipate new scenarios of occurrence of problems and to act with possible engineering solutions.
+# Desarrollo de una herramienta computacional de evaluación de problemas operacionales en la perforación de pozos en el campo sacha
+## Descripción del problema
+El campo Sacha se ubica en la provincia de Orellana del Oriente ecuatoriano, forma parte del Bloque 60 siendo considerado uno de los más importantes en Ecuador debido a que registra una alta producción diaria de hidrocarburos. Debido a ello, es necesario identificar las clases de problemas operacionales en la perforación que ocurren en el campo, su origen y consecuencias, para corregir dichos contratiempos con el objetivo de disminuir tiempos no productivos y optimizar la perforación de pozos de hidrocarburos en el campo. Para este trabajo se utilizó los reportes finales de perforación y fluidos de perforación elaborados entre los años 2014 y 2019 de diferentes pozos del campo Sacha. A partir de los datos extraídos de los reportes, se aplicó análisis estadístico para elaborar una matriz limpia de datos que permita implementar análisis de componentes principales para la reducción de dimensiones y comprensión de la relación de las variables en un plano bidimensional. Finalmente, se construyó un modelo de clasificación basado en inteligencia artificial, donde se alcanzó un 82% de exactitud al predecir problemas en la perforación de pozos, que permite anticipar nuevos escenarios de ocurrencia de problemas operacionales y actuar con las posibles soluciones de ingeniería
+## ¿Qué se hizo para desarrollar la herramienta computacional?
