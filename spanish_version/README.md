@@ -16,5 +16,7 @@ En el desarrollo de esta herramienta se utilizaron diferentes metodologías para
 Los pasos completos efectuados en la investigación se encuentran en el [Jupyter Notebook](https://github.com/pizzio98/drilling_problems_app/blob/main/spanish_version/METODOLOG%C3%8DA_TESIS_SECCIONADO.ipynb).
 ## ¿Cómo utilizar la herramienta computacional?
 Con el modelo entrenado, se desarrolló una herramienta computacional la cual se encuentra publicada para el uso en [Streamlit Share](https://share.streamlit.io/pizzio98/drilling_problems_app/main/spanish_version/app_tesis.py).
-Una vez dentro de la herramienta se carga el [archivo de prueba]() que se encuentra cargado en este mismo repositorio.
+Una vez dentro de la herramienta se carga el [archivo de prueba](https://github.com/pizzio98/drilling_problems_app/blob/main/spanish_version/Set%20de%20prueba%20Streamlit.xlsx) que se encuentra cargado en este mismo repositorio.
 Cuando se carga el archivo se podrá visualizar que predice el modelo y que soluciones plantea para resolver dicho problema.
+
+> Espero que esta guía sea de ayuda para comprender la investigación y el funcionamiento de la herramienta desarrollada.
