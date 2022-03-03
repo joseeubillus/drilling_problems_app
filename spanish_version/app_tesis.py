@@ -39,7 +39,7 @@ else:
 	scores_df=pd.DataFrame(scores,columns=["PC1","PC2","PC3","PC4","PC5","PC6","PC7","PC8"])
 	check_database_1=st.checkbox("Show Principal Component Analysis",value=False)
 	if check_database_1==True:
-		col1, col2=st.beta_columns([1,1])
+		col1, col2=st.columns([1,1])
 		with col1:
 			st.write("")
 			st.write("")
@@ -62,7 +62,7 @@ else:
 	fig=px.scatter(x=scores_df["PC1"],y=scores_df["PC2"],color=resultados["Predicted problem"],title="Drilling Problem Predictions",labels={"x":"PC1","y":"PC2","color":"Drilling Problem"})
 	if check_database_2==True:
 		st.subheader("Results")
-		col3,col4=st.beta_columns([1,1])
+		col3,col4=st.columns([1,1])
 		with col3:
 			st.dataframe(resultados)
 		with col4:
@@ -78,30 +78,24 @@ else:
 			soluciones=st.selectbox('Seleccione el problema operacional',('Broca Embolada','Pega Mecánica','Pega Diferencial','Pérdida de Circulación','Patadas','Taponamiento del Flowline'))
 			if soluciones=='Broca Embolada':
 				st.markdown('''
-				- Aumentar la RPM para hacer girar más a los recortes alrededor de la broca y aumentar
-				la tasa de flujo hacia la máxima permitida para limpiar la broca
-				- Disminuir el WOB para permitir la limpieza efectiva de la broca evitando nuevos casos
-				de embolamiento
+				- Aumentar la RPM para hacer girar más a los recortes alrededor de la broca y aumentar la tasa de flujo hacia la máxima permitida para limpiar la broca
+				- Disminuir el WOB para permitir la limpieza efectiva de la broca evitando nuevos casos de embolamiento
 				- Bombear una píldora dispersa para aflojar el material embolado haciendo que la litología se vuelva más arenosa
 				- Bombear píldora de alta viscosidad para intentar sacar los recortes
 				- Reciprocar y sacudir la broca para intentar limpiarla de los recortes adheridos''')
 			elif soluciones=='Pega Mecánica':
 				st.markdown('''
-				- Falta de limpieza del hoyo o derrumbe de la formación se procede a rotar, mover hacia arriba o abajo la sarta de 
-				perforación e incrementar el caudal sin exceder la máxima Densidad Equivalente de Circulación
+				- Falta de limpieza del hoyo o derrumbe de la formación se procede a rotar, mover hacia arriba o abajo la sarta de perforación e incrementar el caudal sin exceder la máxima Densidad Equivalente de Circulación
 				- Presencia de lutita plástica se procede a un aumento en el peso del lodo
-				- Presencia de lutita reactiva se procede a bombear una píldora con inhibidores químicos que evite el hinchamiento de estas, 
-				evitando así su derrumbe''')
+				- Presencia de lutita reactiva se procede a bombear una píldora con inhibidores químicos que evite el hinchamiento de estas, evitando así su derrumbe''')
 			elif soluciones=='Pega Diferencial':
 				st.markdown('''
-				- Reducir el peso de la columna hidrostática mediante dilución, gasificación por nitrógeno o colocar un packer sobre el punto atascado
-				para aislar la zona y remover el efecto de sobre balance
+				- Reducir el peso de la columna hidrostática mediante dilución, gasificación por nitrógeno o colocar un packer sobre el punto atascado para aislar la zona y remover el efecto de sobre balance
 				- Lavar la tubería atascada colocando un bache de aceite que permita bañar la zona de la pegadura''')
 			elif soluciones=='Pérdida de Circulación':
 				st.markdown('''
 				- Bombear píldoras de sellado en la zona donde se está produciendo la pérdida de circulación
-				- Para evitar la pérdida excesiva de fluido se debe reducir el peso del lodo disminuyendo el diferencial de presión y a su vez reducir la tasa
-				de circulación
+				- Para evitar la pérdida excesiva de fluido se debe reducir el peso del lodo disminuyendo el diferencial de presión y a su vez reducir la tasa de circulación
 				- En caso de que estas soluciones no den resultados, se puede optar por el bombeo de cemento en la zona fracturada para buscar sellar la formación''')
 			elif soluciones== 'Patadas':
 				st.markdown('''
@@ -112,7 +106,7 @@ else:
 				- Bombear el lodo desde el stand pipe directamente al flowline para limpiarla''')
 		
 		else:
-			solutions=st.selectbox('Seleccione el problema operacional',('Bit Balling','Mechanical Sticking','Differential Sticking','Loss of Circulation','Kicks','Flowline Plugging'))
+			solutions=st.selectbox('Choose the drilling problem',('Bit Balling','Mechanical Sticking','Differential Sticking','Loss of Circulation','Kicks','Flowline Plugging'))
 			if solutions=='Bit Balling':
 				st.markdown('''
 				- Aumentar la RPM para hacer girar más a los recortes alrededor de la broca y aumentar
