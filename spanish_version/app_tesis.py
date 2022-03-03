@@ -69,7 +69,12 @@ else:
 			st.plotly_chart(fig)
 			
 		st.subheader('Posibles soluciones de ingeniería')
-		if st.button('Soluciones en español'):
+		soluciones_boton = st.button('Soluciones en español')
+		if "load_state" not in st.session_state:
+    			st.session_state.load_state = False
+			
+		if soluciones_boton or st.session_state.load_state:
+			st.session_state.load_state = True
 			soluciones=st.selectbox('Seleccione el problema operacional',('Broca Embolada','Pega Mecánica','Pega Diferencial','Pérdida de Circulación','Patadas','Taponamiento del Flowline'))
 			if soluciones=='Broca Embolada':
 				st.markdown('''
