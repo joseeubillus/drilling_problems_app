@@ -53,7 +53,7 @@ else:
 	#cargar el modelo 
 	
 	check_database_2=st.checkbox("Visualizar resultados de la predicción",value=False)
-	loaded_model = pickle.load(open("modelo_finalizado.sav", 'rb'))
+	loaded_model = pickle.load(open("spanish_version/modelo_finalizado.sav", 'rb'))
 	y_pred=loaded_model.predict(scores_df)
 	y_df=pd.DataFrame(y_pred)
 	resultados=pd.concat([X_test['md, ft'],y_df],axis=1)
