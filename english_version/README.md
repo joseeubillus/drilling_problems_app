@@ -15,3 +15,9 @@ In the development of this tool, different methodologies were used to execute a 
 4. Frontend Development
 
 The detailed steps made in this research can be found in the [Jupyter Notebook](https://github.com/pizzio98/drilling_problems_app/blob/main/english_version/Research_Methodology.ipynb).
+
+## ¿Cómo utilizar la herramienta computacional?
+With the model trained, we developed a tool published in [Streamlit Share](https://share.streamlit.io/pizzio98/drilling_problems_app/main/spanish_version/app_tesis.py).
+Once inside the tool, we proceed to upload the [test file](https://github.com/pizzio98/drilling_problems_app/blob/main/spanish_version/Set%20de%20prueba%20Streamlit.xlsx) uploaded in the spanish version of this research
+
+Once the file is upload, we can show the predictions of the model and the solutions established to solve the problem.
