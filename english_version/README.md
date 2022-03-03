@@ -13,3 +13,5 @@ In the development of this tool, different methodologies were used to execute a 
 2. Principal Component Analysis
 3. Supervised Learning: K Nearest Neighbors
 4. Frontend Development
+
+The detailed steps made in this research can be found in the [Jupyter Notebook](https://github.com/pizzio98/drilling_problems_app/blob/main/english_version/METODOLOG%C3%8DA_TESIS_SECCIONADO.ipynb).
