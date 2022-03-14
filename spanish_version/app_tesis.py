@@ -76,7 +76,7 @@ else:
 		with col4:
 			st.plotly_chart(fig)
 			
-		st.subheader('Posibles soluciones de ingeniería')
+		st.subheader('Possible Engineering Solutions')
 		soluciones_boton = st.button('Soluciones en español')
 		if "load_state" not in st.session_state:
     			st.session_state.load_state = False
